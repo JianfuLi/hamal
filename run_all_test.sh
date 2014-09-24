@@ -1,0 +1,1 @@
+PYTHONPATH=src python2.7 -m unittest discover -s ./tests/ -p 'test_*.py' -v
