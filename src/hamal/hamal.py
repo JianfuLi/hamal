@@ -61,3 +61,8 @@ class Hamal(object):
             PROVIDER.update(schema, table, doc)
         elif method == 'DELETE':
             PROVIDER.delete(schema, table, doc)
+
+
+if __name__ == '__main__':
+    h = Hamal()
+    h.hauling()
